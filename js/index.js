@@ -38,7 +38,7 @@ function getDayColor() {
   const currentWeekDay = new Date().getDay();
   if (currentWeekDay === 1) return "darkgray";
   if (2 <= currentWeekDay && currentWeekDay <= 5) return "lightblue";
-  else return "hotpink";
+  return "hotpink";
 }
 
 display.textContent = getGreeting();
