@@ -31,7 +31,7 @@ function getGreeting() {
   if (6 <= currentTime && currentTime <= 12) return "Good Morning!";
   if (13 <= currentTime && currentTime <= 18) return "Good Afternoon!";
   if (19 <= currentTime && currentTime <= 22) return "Good Evening!";
-  else return "Good Night!";
+  return "Good Night!";
 }
 
 function getDayColor() {
